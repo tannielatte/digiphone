@@ -7,7 +7,7 @@ export default function NavbarPage() {
     <div className="navbar-section">
       <Navbar bg="success" expand="lg">
         <Container>
-          <Navbar.Brand href="#hero" className="text-light">
+          <Navbar.Brand className="text-light">
             DIGIPHONE
           </Navbar.Brand>
           <Navbar.Toggle className="text-light" />
