@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function ProductList({ data }) {
   const { img, model, price } = data;
+  console.log(data);
   return (
     <div className="justify-content-center align-items-center col-md-6 col-lg-3">
       <Link to={data.id.toString()} className="text-decoration-none text-dark">
