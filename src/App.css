@@ -3,3 +3,11 @@
   text-decoration: none;
   padding: 10px;
 }
+
+/* Card */
+.card {
+  transition: transform .3s;
+}
+.card:hover {
+  transform: scale(1.1);
+}

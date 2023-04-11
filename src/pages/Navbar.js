@@ -16,7 +16,7 @@ export default function NavbarPage() {
               <NavLink to="/" className="text-light pe-2">
                 Home
               </NavLink>
-              <NavLink href="#products" className="text-light pe-2">
+              <NavLink to="product" className="text-light pe-2">
                 Products
               </NavLink>
               <NavLink to="about" className="text-light pe-2">
