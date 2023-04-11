@@ -11,7 +11,7 @@
     "about4": "256GB Storage, 8GB RAM",
     "about5": "Android 13, Mediatek Dimensity 9000+ (4 nm), Octa-core (1x3.20 GHz Cortex-X2 & 3x2.85 GHz Cortex-A710 & 4x1.80 GHz Cortex-A510)",
     "about6": "50 MP, f/1.8, 23mm (wide), 1/1.56'', 1.0µm, multi-directional PDAF, 8 MP, f/2.2, 112˚, (ultrawide), Front, 32 MP, f/2.4, 22mm (wide), 1/2.74, 0.8µm, AF",
-    "id": 1
+    "id": "1"
   },
   {
     "name": "SAMSUNG Galaxy S23 Ultra Cell Phone, Factory Unlocked Android Smartphone, 256GB Storage, 200MP Camera, Night Mode, Long Battery Life, S Pen, US Version, 2023, Phantom Black",
@@ -25,7 +25,7 @@
     "about4": "WRITE, DRAW, CREATE w/ S PEN: Whether you’re in Samsung Note, Microsoft Office or Google Suite, with the built-in S Pen, you can convert handwriting to text, share your creations live and keep everything on your Galaxy S23 Ultra device",
     "about5": "SNAP PICS w/ S PEN: Capture epic selfies and beautiful photos with the click of your S Pen; Simply open up the camera app and click the button on the S Pen instead of the screen; Getting that great shot just got easier",
     "about6": "FASTEST MOBILE PROCESSOR AVAILABLE: Whether you’re working hard, playing hard or doing both at the same time, smoothly switch between apps with our fastest processor ever",
-    "id": 2
+    "id": "2"
   },
   {
     "name": "Samsung Galaxy S21 5G, US Version, 128GB, Phantom Gray - Unlocked (Renewed)",
@@ -39,7 +39,7 @@
     "about4": "2G: GSM 850/900/1800/1900, CDMA 800/1900, 3G: HSDPA 850/900/1700(AWS)/1900/2100, CDMA2000 1xEV-DO, 4G LTE: 1/2/3/4/5/7/8/12/13/14/18/19/20/25/26/28/30/38/39/40/41/46/48/66/71, 5G: 2, 5, 25, 41, 66, 71, 260, 261 SA/NSA/Sub6/mmWave - Single SIM",
     "about5": "US Model. Compatible with Most GSM and CDMA Carriers like T-Mobile, AT andamp;T, MetroPCS, etc. Will Also work with CDMA Carriers Such as Verizon, Sprin",
     "about6": "",
-    "id": 3
+    "id": "3"
   },
   {
     "name": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
@@ -53,7 +53,7 @@
     "about4": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
     "about5": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
     "about6": "",
-    "id": 4
+    "id": "4"
   },
   {
     "name": "Apple iPhone 14 Pro, 256GB, Space Black - Unlocked (Renewed)",
@@ -67,7 +67,7 @@
     "about4": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
     "about5": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
     "about6": "",
-    "id": 5
+    "id": "5"
   },
   {
     "name": "Apple iPhone 12, 64GB, Green - Fully Unlocked (Renewed)",
@@ -81,7 +81,7 @@
     "about4": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
     "about5": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
     "about6": "",
-    "id": 6
+    "id": "6"
   },
   {
     "name": "Xiaomi Redmi Note 10 Pro (128GB, 6GB) 6.67in, Snapdragon 732G, 5020mAh Battery, Dual SIM GSM Unlocked Global 4G LTE (T-Mobile, Metro) International Model (Fast Car Charger Bundle, Onyx Gray)",
@@ -95,7 +95,7 @@
     "about4": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
     "about5": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
     "about6": "",
-    "id": 7
+    "id": "7"
   },
   {
     "name": "Xiaomi 12T PRO 5G + 4G LTE (256GB + 12GB) Unlocked Worldwide (Only T-Mobile/Metro/Mint USA Market) 200MP Pro Camera 6.67`` 120Mhz + (w/Fast 51w Car Charger) (Black Global)",
@@ -108,7 +108,7 @@
     "about4": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
     "about5": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
     "about6": "",
-    "id": 8
+    "id": "8"
   },
   {
     "name": "Google Pixel 6 – 5G Android Phone - Unlocked Smartphone with Wide and Ultrawide Lens - 128GB - Stormy Black (Renewed)",
@@ -122,7 +122,7 @@
     "about4": "The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.",
     "about5": "Tested for battery health and guaranteed to have a minimum battery capacity of 80%.",
     "about6": "",
-    "id": 9
+    "id": "9"
   },
   {
     "name": "Google Pixel 4a - Unlocked Android Smartphone - 128 GB of Storage - Up to 24 Hour Battery - Just Black",
@@ -136,6 +136,6 @@
     "about4": "HDR+ makes your photos look better by automatically adjusting for color and lighting; Night Sight lets you capture rich detail and color even in the dark; Portrait Mode helps you take beautiful portraits with a DSLR quality look",
     "about5": "Beautiful bezel-less design with an 5.8 inch Full HD+ OLED display that goes from edge to edge so you can immerse yourself in your videos and apps",
     "about6": "",
-    "id": 10
+    "id": "10"
   }
 ]
