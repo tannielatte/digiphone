@@ -4,7 +4,7 @@ import DashboardTwo from '../components/dashboard/DashboardTwo'
 
 export default function Dashboard() {
   return (
-    <div className="container-xl">
+    <div className="container-xl py-5" id='dashboard'>
       <div className="text-center pb-5">
         <h2>Charts Example</h2>
         <p className="lead text-muted">
