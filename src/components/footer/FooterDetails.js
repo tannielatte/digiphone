@@ -98,6 +98,9 @@ export default function FooterDetails() {
             </div>
           </div>
         </div>
+        <div className="row border-top mt-4">
+          <p className="lead text-center muted py-2">Copyright © 2023 Yuni Safitri. All Rights Reserved.</p>
+        </div>
       </div>
     </div>
   );
