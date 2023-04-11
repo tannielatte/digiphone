@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { Button, Form } from "react-bootstrap";
+import { useForm } from "react-hook-form";
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -13,10 +15,22 @@ export default function ProductDetail() {
       .catch((err) => console.error(err));
   }, [id]);
 
-  console.log(detail);
-
   const found = detail?.find((details) => details.id === id);
   console.log(found);
+
+  // form
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const [userInfo, setUserInfo] = useState();
+  const onSubmit = (data) => {
+    setUserInfo(data);
+    console.log(data);
+  };
+
+  const data = JSON.stringify(userInfo, undefined, 3);
 
   return (
     <div className="container py-5">
@@ -40,8 +54,43 @@ export default function ProductDetail() {
       </div>
 
       <div className="row justify-content-center align-items-center">
-        <div className="col-10 col-lg6">
-          
+        <div className="col-lg-6">
+          <div className="text-center">
+            <h2>Contact Us</h2>
+            <p className="lead text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quaerat.
+            </p>
+          </div>
+          <Form onSubmit={handleSubmit(onSubmit)}>
+            <Form.Group className="mb-3" controlId="name">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                name="name"
+                placeholder="Cristiano Ronaldo"
+                {...register("name", { required: true })}
+                aria-invalid={errors.name ? "true" : "false"}
+              />
+            </Form.Group>
+            {errors.name?.type === "required" && <p role="alert">First name is required</p>}
+            <Form.Group className="mb-3" controlId="email">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                name="email"
+                placeholder="name@example.com"
+                {...register("mail", { required: true })}
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="messages">
+              <Form.Label>Message</Form.Label>
+              <Form.Control name="messages" as="textarea" rows={3} {...register("messages")} />
+            </Form.Group>
+            <Button type="submit">Submit form</Button>
+          </Form>
+        </div>
+        <div className="col-lg-6 py-5 text-center">
+          <pre className="lead muted">{data}</pre>
         </div>
       </div>
     </div>
