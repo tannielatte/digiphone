@@ -5,7 +5,7 @@ import banner_3 from "../../assets/banner-3.png";
 
 export default function Banner() {
   return (
-    <div className="container py-5">
+    <div className="container-lg py-5">
       <Carousel fade>
         <Carousel.Item>
           <img className="d-block w-100" src={banner_1} alt="First slide" />
